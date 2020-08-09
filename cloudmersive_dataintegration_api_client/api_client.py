@@ -1,6 +1,6 @@
 # coding: utf-8
 """
-    Data Integration API
+    dataintegrationapi
 
     Easily and directly query database backup files, convert into other file formats.  # noqa: E501
 
@@ -74,7 +74,7 @@ class ApiClient(object):
             self.default_headers[header_name] = header_value
         self.cookie = cookie
         # Set default User-Agent.
-        self.user_agent = 'Swagger-Codegen/3.0.1/python'
+        self.user_agent = 'Swagger-Codegen/3.0.2/python'
 
     def __del__(self):
         if self._pool is not None:

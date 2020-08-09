@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """
-    Data Integration API
+    dataintegrationapi
 
     Easily and directly query database backup files, convert into other file formats.  # noqa: E501
 

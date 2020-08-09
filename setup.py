@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """
-    Data Integration API
+    dataintegrationapi
 
     
 
@@ -14,7 +14,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "cloudmersive_dataintegration_api_client"
-VERSION = "3.0.1"
+VERSION = "3.0.2"
 # To install the library, run the following
 #
 # python setup.py install
@@ -36,10 +36,10 @@ REQUIRES = [
 setup(
     name=NAME,
     version=VERSION,
-    description="Data Integration API",
+    description="dataintegrationapi",
     author_email="",
     url="https://cloudmersive.com/data-integration-api",
-    keywords=["Swagger", "Data Integration API"],
+    keywords=["Swagger", "dataintegrationapi"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
